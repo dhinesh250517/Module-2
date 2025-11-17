@@ -1,32 +1,39 @@
-# Exp.No:2b  
-## FUNCTIONS - PERFECT NUMBER
+# Exp. No: 2a  
+## ITERATIVE STATEMENTS – PRINTING N NATURAL NUMBERS
 
-### AIM  
-To write a Python program to check if a number is a Perfect number using the concept of functions.
-
----
-
-### ALGORITHM
-
-1. Begin the program.  
-2. Read the number `n` from the user using `input()`.  
-3. Convert the input to an integer.  
-4. Define the function `perfectNumber(n)` with the following steps:  
-    - Initialize a variable `factor_sum` to 0.  
-    - Iterate through all numbers from 1 to `n//2` (as divisors of a number can't be greater than half of it).  
-    - If a number `i` divides `n` perfectly (i.e., `n % i == 0`), add `i` to `factor_sum`.  
-    - If `factor_sum` is equal to `n`, then print the number is a perfect number. Otherwise, print it's not a perfect number.  
-5. Terminate the program.
+###  Aim
+To create a Python program for printing `n` natural numbers using a `for` loop.
 
 ---
 
-### PROGRAM
+###  Algorithm
+
+1. Begin the program.
+2. Use `input()` to read the value of `n` (the upper limit) from the user.
+3. Convert the input to an integer.
+4. Display the message **"Natural Numbers are :"**.
+5. Use a `for` loop to iterate from 1 to `n` (inclusive).
+6. In each iteration, print the current value of `i`.
+7. Terminate the program.
+
+---
+
+###  Program
+
 ```
-#Reg.No:
-#Name:
-#Add your Code Here
 
+n=int(input())
+
+for i in range(n,0,-1):
+    if i%2!=0:
+        print(i)
 ```
 ### OUTPUT
+![Module 2B](https://github.com/user-attachments/assets/3852e53a-0b6d-419b-9202-fd62d894b4d6)
 
 ### RESULT
+```
+This program for  1 to n Odd numbers in reverse order is successfully executed.
+
+```
+
